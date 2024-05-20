@@ -35,6 +35,11 @@
 	},
 
 	"linter": {
-		"enabled": false
+		"enabled": true,
+		"rules": {
+			"style": {
+				"noNonNullAssertion": "off"
+			}
+		}
 	}
 }

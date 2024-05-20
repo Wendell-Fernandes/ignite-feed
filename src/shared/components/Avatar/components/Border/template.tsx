@@ -1,4 +1,4 @@
-import { IChildrenProp } from '../../../../typings'
+import type { IChildrenProp } from '../../../../typings'
 
 export function Border({ children }: IChildrenProp) {
 	return (

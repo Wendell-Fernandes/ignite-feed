@@ -10,6 +10,7 @@ export function Root({ src }: IRootProps) {
 			{src && (
 				<img
 					src={src}
+					alt=''
 					className='size-[3.125rem] rounded-md border-0'
 				/>
 			)}

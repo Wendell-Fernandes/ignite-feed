@@ -6,6 +6,7 @@ export function Sidebar() {
 		<aside className='flex h-[18.3rem] flex-col items-center overflow-hidden rounded-lg'>
 			<img
 				src='https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?q=80&w=500&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+				alt=''
 				className='h-[4.5rem] w-full object-cover'
 			/>
 
@@ -23,7 +24,7 @@ export function Sidebar() {
 
 				<footer className='mt-6 w-full -translate-y-[1.875rem] border-t border-gray-600 px-8 py-6'>
 					<a
-						href=''
+						href='./'
 						className='mb-4 flex h-[3.125rem] items-center justify-center gap-2 rounded-lg border border-green px-6 font-bold
 					text-green no-underline transition-colors delay-100 hover:bg-green hover:text-white'>
 						<PencilSimpleLine size={20} />

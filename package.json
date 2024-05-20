@@ -8,10 +8,12 @@
 		"build": "tsc && vite build",
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
-		"biome": "biome check --apply ./src"
+		"biome": "biome check --apply ./src",
+		"teste": "biome lint --apply-unsafe ./src"
 	},
 	"dependencies": {
 		"@phosphor-icons/react": "^2.1.5",
+		"date-fns": "^3.6.0",
 		"react": "^18.3.1",
 		"react-dom": "^18.3.1",
 		"react-markdown": "^9.0.1",

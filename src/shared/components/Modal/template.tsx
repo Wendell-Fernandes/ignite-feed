@@ -6,10 +6,14 @@ export function Modal() {
 				<p>Você tem certeza que gostaria de excluir este comentário?</p>
 
 				<div>
-					<button className='bg-transparent h-12 w-[8.625rem] rounded-lg text-sm font-bold hover:bg-gray-700'>
+					<button
+						type='button'
+						className='bg-transparent h-12 w-[8.625rem] rounded-lg text-sm font-bold hover:bg-gray-700'>
 						Cancelar
 					</button>
-					<button className='bg-transparent h-12 w-[8.625rem] rounded-lg text-sm font-bold hover:bg-gray-700 hover:text-red-900'>
+					<button
+						type='button'
+						className='bg-transparent h-12 w-[8.625rem] rounded-lg text-sm font-bold hover:bg-gray-700 hover:text-red-900'>
 						Sim, excluir
 					</button>
 				</div>

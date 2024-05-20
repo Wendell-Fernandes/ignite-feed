@@ -1,4 +1,4 @@
-import { IChildrenProp } from '../../typings'
+import type { IChildrenProp } from '../../typings'
 
 export function Default({ children }: IChildrenProp) {
 	return (
