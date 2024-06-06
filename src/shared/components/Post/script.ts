@@ -11,7 +11,7 @@ export function usePost(info: IPostInfoProps) {
 	const [comments, setComments] = useState<string[]>([])
 
 	function handleChangeTextarea(event: ChangeEvent<HTMLTextAreaElement>) {
-		//@ts-ignore
+	
 		setTextarea(event.target.value)
 	}
 
